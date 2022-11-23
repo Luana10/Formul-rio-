@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content= " width= device-width, initial-sacale= 1.0">
-  <meta name="descripition" content= "Esse é o meu primeiro site !">
+  <meta name="descripition" content= "Esse é meu primeiro formulário.">
   <meta name="keywirds" content="programacao, html, css, javascript">
 
 </head>
@@ -21,29 +21,28 @@
 
 <!--Campo input do Type Text-->
 <label for="campo_nome">
-<input type="text" placeholder="Digite seu nome aqui"required>
+<input type="text" placeholder="Digite seu nome aqui"/><required>
 
 <br><br>
 
 <label for="campo_sobrenome">Sobrenome:</label>
-<input id="campo_sobrenome" type="text" placeholder="Digite seu sobrenome aqui"required>
+<input id="campo_sobrenome" type="text" placeholder= "Digite seu sobrenome aqui"/><required>
 <br><br>
-<!--Legenda para senha-->
-<label for="campo_senha"> Senha </label>
+<label for="campo_senha"/> Senha</label>
 
 <!--Campo input do type password-->>
-<input id="campo_senha" type="password" placeholder="Digite sua senha"required>
+<input id="campo_senha" type="password" placeholder="Digite sua senha"/><required>
 
 <br><br>
 
 <!--Legenda para Email -->
-<label for="campo_email">Email:</ label>
-<input id="campo_email" type="email"placeholder="Digite um email"required>
+<label for="campo_email"> Email</label>
+<input id="campo_email" type="email" placeholder="Digite um email"/><required>
 <br><br>
 
 <!--Campo input do type Submit-->
 <input type="submit" value="Enviar Formulário">
-.
+
 </form>
 <br><br>
 
@@ -74,26 +73,21 @@ name="item3" value="Computador"><label for="item3">Computador</label><br><br>
 
 <h2>Escolha uma cor:</h2>
 <select name="cores">
-<option selected disabled value="">Selecione uma cor</option>
-<optiom value="vermelho">Vermelho</option>
-<option value="azul">Azul</option>
-<option value="amarelo">Amarelo</option>
-<option value="verde">Verde</option>
+<option selected disabled value> Selecione uma cor</option>
+<option value="vermelho"> Vermelho</option>
+<option value="azul"> Azul</option>
+<option value="amarelo"> Amarelo</option>
+<option value="verde"> Verde</option>
 </select>
 
 <br><br><br>
 
 <h2>Digite uma mensagem:</h2>
 
-<textarea>Um texto de exemplo</textarea>
-
-<textarea name="mensagem" placeholder="Digite aqui sua mensagem" rows="15" cols="55"></textarea>
 
 <br><br>
 
 <button>Clique aqui</button>
-
-
 
 
 
